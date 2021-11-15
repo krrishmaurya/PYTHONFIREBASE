@@ -1,8 +1,5 @@
 import pyrebase 
-firebaseConfig={
-
-  # add apis here from firebase website #
-}
+from fireinfo import firebaseconfig
 firebase = pyrebase.initialize_app(firebaseConfig)
 auth = firebase.auth()
 
